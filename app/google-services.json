@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "181847152126",
+    "firebase_url": "https://nhom1duan2docbao.firebaseio.com",
+    "project_id": "nhom1duan2docbao",
+    "storage_bucket": "nhom1duan2docbao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181847152126:android:b263f8e6e9af28d2",
+        "android_client_info": {
+          "package_name": "com.tbn.duan2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181847152126-ivofc1a6gegmt2l65gbrok16tcp6m6pq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tbn.duan2",
+            "certificate_hash": "88cbd03861e1ab58decb9a3ab8f2a2526a3095bb"
+          }
+        },
+        {
+          "client_id": "181847152126-lnbtnmh0j1uv5dpk4cvt1kjovn9k50fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0g8-gomH4va_TwaD1ZZBDvIMr-Gjxivk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181847152126-lnbtnmh0j1uv5dpk4cvt1kjovn9k50fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

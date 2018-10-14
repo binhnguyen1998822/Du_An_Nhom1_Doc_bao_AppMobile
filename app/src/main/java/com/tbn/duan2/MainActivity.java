@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.tbn.duan2.Frament.CategoryFragment;
 import com.tbn.duan2.Frament.PostFragment;
 
@@ -24,7 +25,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
+        FirebaseMessaging.getInstance().subscribeToTopic("NTB");
         if (savedInstanceState == null) {
 
             PostFragment postFragment = new PostFragment();

@@ -25,6 +25,18 @@
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name="com.tbn.duan2.PostDetaill"></activity>
         <activity android:name="com.tbn.duan2.CategoryDetaill"></activity>
+        <service android:name=".GCM.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".GCM.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
     </application>
 
 </manifest>
